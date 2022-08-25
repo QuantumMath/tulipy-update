@@ -49,7 +49,7 @@ def get_config():
     cfg.style = "pep440"
     cfg.tag_prefix = ""
     cfg.parentdir_prefix = "tulipyconda-"
-    cfg.versionfile_source = "tulipyconda/_version.py"
+    cfg.versionfile_source = "tulipy/_version.py"
     cfg.verbose = False
     return cfg
 

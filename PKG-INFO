@@ -2,12 +2,12 @@ Metadata-Version: 2.1
 Name: tulipyconda
 Version: 0.4.8
 Summary: Financial Technical Analysis Indicator Library. Python bindings for https://github.com/TulipCharts/tulipindicators
-Home-page: https://github.com/cryptocoinserver/tulipy
-Author: https://travis-ci.org/cryptocoinserver/tulipy/blob/master/AUTHORS
+Home-page: https://github.com/QuantumMath/tulipy-update
+Author: https://github.com/QuantumMath/tulipy-update/blob/master/AUTHORS 
 License: LGPL-3.0
 Description: [![Build Status](https://travis-ci.org/cryptocoinserver/tulipy.svg?branch=master)](https://travis-ci.org/cryptocoinserver/tulipy)
         
-        I forked the original repo to add support for 3.10 and Anaconda.
+        Added support for 3.10 and Anaconda.
         It's on pip. Use 'pip install tulipyconda'
             or use 'conda install tulipyconda'.
         
@@ -19,9 +19,11 @@ Description: [![Build Status](https://travis-ci.org/cryptocoinserver/tulipy.svg?
         
         ## Installation
         
-        You can install via `pip install tulipyconda`.
+          Use 'pip install tulipyconda'.
+          or use  'conda install tulipyconda'.
+
         If a wheel is not available for your system, you will need to `pip install Cython numpy` to build from the source distribution.
-        When building from source on Windows, you will need the Microsoft Visual C++ Build Tools installed.
+        If building from source on Windows, you will need the Microsoft Visual C++ Build Tools installed.
         
         ## Usage
         
