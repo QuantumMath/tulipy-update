@@ -2,8 +2,8 @@ Metadata-Version: 2.1
 Name: tulipyconda
 Version: 0.4.8
 Summary: Financial Technical Analysis Indicator Library. Python bindings for https://github.com/TulipCharts/tulipindicators
-Home-page: https://github.com/QuantumMath/tulipy-update
-Author: https://github.com/QuantumMath/tulipy-update/blob/master/AUTHORS 
+Home-page: https://github.com/QuantumMath/tulipyconda
+Author: https://github.com/QuantumMath/tulipyconda/blob/master/AUTHORS 
 License: LGPL-3.0
 Description: [![Build Status](https://travis-ci.org/cryptocoinserver/tulipy.svg?branch=master)](https://travis-ci.org/cryptocoinserver/tulipy)
         
