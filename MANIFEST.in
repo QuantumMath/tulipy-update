@@ -1,4 +1,8 @@
 graft libindicators
+include setup_atomic_replace.py
+include setup_yapf_task.py
 include tulipy/lib/ti.pxd
 include pyproject.toml
+include versioneer.py
 include README.md LICENSE AUTHORS
+include tulipy/_version.py

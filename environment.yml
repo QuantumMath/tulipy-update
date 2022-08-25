@@ -1,0 +1,30 @@
+# Use `conda env create environment.yml` to create a dev environment
+name: tulipyconda-dev
+channels:
+  - defaults
+  - conda-forge
+  - ctools
+dependencies:
+  - redis
+  - notebook
+  - ruamel_yaml
+  - anaconda-client
+  - conda-pack
+  - requests
+  - tqdm
+  - psutil
+  - tornado>=4.2
+  - tqdm
+  - pip
+  - keyring
+  - pytest
+  - pytest-cov
+  - coverage
+  # Pinned to ensure consistency between local and CI
+  - yapf==0.30.0
+  - flake8
+  - pydocstyle
+  # Optional; for multiprocessing tests
+  - pytest-xdist
+  # Optional for docker (s2i) build support
+  - source-to-image
