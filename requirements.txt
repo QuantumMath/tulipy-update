@@ -5,4 +5,4 @@
 #    pip-compile 
 #
 cython==0.28.5
-numpy==1.15.1
+numpy>=1.15.1
